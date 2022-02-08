@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container-cd {
+  margin: 30px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  background-color: #e6f1ff;
+}
+
+.card-container {
+  padding: 20px 0;
+  border-radius: 12px;
+  width: 600px;
+  display: flex;
+}
+
+.heading {
+  padding: 20px 0;
+  border-radius: 12px;
+  width: 600px;
+}
+.heading h4 {
+  font-size: 48px;
+  text-align: center;
+  color: #3c4043;
+}
+.heading p {
+  text-align: center;
+  color: #3c4043;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  border-top: 4px solid #1a73e8;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: 0 1px 2px #9aa0a6, 0 1px 3px #dadce0;
+  box-sizing: border-box;
+  margin: 0 10px 0 0;
+  height: 208px;
+  width: 200px;
+  padding: 16px;
+  position: inherit;
+}
+.card p1 {
+  color: #3c4043;
+}
+
+.card p2 {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #3c4043;
+}
+
+.card p3 {
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 18px;
+  color: #3c4043;
+}
+
+.details {
+  font-size: 12px;
+  color: #1a73e8;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+}
+
+.plans-btn {
+  background-color: #f8fbff;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #1a73e8;
+  text-decoration: none;
+  border: 1px solid #5a77e8;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.plans-btn:hover {
+  background-color: #dae0f5;
+  color: #5a77e8;
+  transition: 0.7s;
+}
